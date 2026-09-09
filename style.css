@@ -1,1 +1,4 @@
-
+.middle{
+   display: flex;
+   justify-content: center;
+}
