@@ -1,3 +1,3 @@
 redbutton.addEventListener ("click", function() { 
-    document.getElementById("body").style.backgroundImage = "nyancat.gif";
+    document.getElementById("body").style.backgroundImage = "url(nyancat.gif)";
 });
