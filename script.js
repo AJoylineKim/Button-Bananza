@@ -1,5 +1,5 @@
 const redbutton = document.getElementById (redbutton);
 
 redbutton.addEventListener ("click", function() { 
-    document.getElementById("body").style.backgroundImage = "url(nyancat.gif)";
+    document.getElementById("div").style.Image = "url(nyancat.gif)";
 });
