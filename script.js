@@ -1,5 +1,6 @@
 const button = document.getElementById('redbutton');
 const container = document.getElementById('imgcontainer');
+console.log("loaded");
 
 button.addEventListener('click', function() {
   const img = document.createElement('img');
@@ -9,5 +10,7 @@ button.addEventListener('click', function() {
 });
 
 document.getElementById("redbutton").addEventListener("click", function() {
-    document.getElementById("consoleLog").textContent = "You clicked the button!";
+    document.getElementById("container").textContent = "You clicked the button!";
+
+  console.log("you clicked the button");
 });
