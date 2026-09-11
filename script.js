@@ -1,5 +1,9 @@
-const redbutton = document.getElementById (redbutton);
+const button = document.getElementById('redbutton');
+const container = document.getElementById('imgcontainer');
 
-redbutton.addEventListener ("click", function() { 
-    document.getElementById("img").style.Image = "url(nyancat.gif)";
-});
+
+button.addEventListener('click', function() {
+  
+    const img = document.createElement('img');
+    img.src = 'nyancat.gif'; 
+    img.alt = 'nyancat.gif';
