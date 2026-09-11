@@ -1,4 +1,4 @@
-#button{
+#button2{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -15,3 +15,7 @@
 }
 
 
+#button {
+      all: unset;
+      cursor: pointer;
+    }
