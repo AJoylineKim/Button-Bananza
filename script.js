@@ -10,7 +10,5 @@ button.addEventListener('click', function() {
 });
 
 document.getElementById("redbutton").addEventListener("click", function() {
-    document.getElementById("container").textContent = "You clicked the button!";
-
-  console.log("you clicked the button");
+    console.log("you clicked the button");
 });
