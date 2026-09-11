@@ -1,4 +1,4 @@
-const button = document.getElementById('button');
+const button = document.getElementById('redbutton');
 const container = document.getElementById('imgcontainer');
 
 button.addEventListener('click', function() {
@@ -7,3 +7,4 @@ button.addEventListener('click', function() {
   img.alt = 'nyancat.gif';
   container.appendChild(img);
 });
+
