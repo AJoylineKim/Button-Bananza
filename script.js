@@ -1,4 +1,4 @@
-const button = document.getElementById('redbutton');
+const button = document.getElementById('button');
 const container = document.getElementById('imgcontainer');
 
 button.addEventListener('click', function() {
